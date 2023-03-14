@@ -1,0 +1,22 @@
+
+/*  body{
+
+    background: rgb(143,76,95);
+    background: linear-gradient(90deg, rgba(143,76,95,1) 0%, rgba(163,30,37,1) 40%, rgba(6,0,0,1) 100%);
+
+}  */
+
+/* body{
+
+    background: rgb(154,129,136);
+    background: radial-gradient(circle, rgba(154,129,136,1) 0%, rgba(193,39,47,1) 40%, rgba(0,0,0,1) 100%);
+
+    
+} */
+
+body {
+
+
+    background: rgb(236,12,50);
+background: linear-gradient(90deg, rgba(236,12,50,1) 0%, rgba(212,43,43,1) 0%, rgba(0,0,0,1) 100%);
+}
