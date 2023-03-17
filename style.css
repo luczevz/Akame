@@ -14,9 +14,132 @@
     
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
 
 
     background: rgb(236,12,50);
 background: linear-gradient(90deg, rgba(236,12,50,1) 0%, rgba(212,43,43,1) 0%, rgba(0,0,0,1) 100%);
 }
+
+
+.navbar {
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center; /* centraliza o menu */
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* distribui os itens em linha */
+  justify-content: space-between; /* distribui o espaço igualmente entre os itens */
+  max-width: 1500px; /* define a largura máxima do menu */
+  margin: 0 auto; /* centraliza o menu na horizontal  */
+}
+
+.nav-item {
+  margin: 0 10px; /* adiciona espaçamento entre os itens */
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #111;
+}
+
+
+  .nav-item {
+    float: left;
+    /* border-right: 1px solid white; */
+  }
+  
+  .nav-item:last-child {
+    border-right: none;
+  }
+  
+
+/*   IMAGEM DA PAGINA INICIAL */
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    padding: 15px;
+    
+  }
+  
+  .title img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+  img.titleakame {
+    border-radius: 48%;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+
+    font-size: 55px;
+  }
+
+
+  .titulo-secao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+.text {
+    color: rgba(241, 248, 229, 0.747);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2,
+p {
+padding-inline-start: 10px;
+padin
+  
+}
+
+
+/* h2, p {
+    text-align: center;
+  }
+   */
+
+/* .g2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2, p {
+    text-align: center;
+    align-items: center;
+  }
+   */
+
+  
+  
+  
+  
