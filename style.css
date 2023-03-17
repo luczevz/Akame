@@ -98,28 +98,25 @@ background: linear-gradient(90deg, rgba(236,12,50,1) 0%, rgba(212,43,43,1) 0%, r
 
 
   .titulo-secao {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-size: 24px;
     font-weight: bold;
 }
 
 .title2 {
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Permanent Marker', cursive;
     color: white;
+    text-align: center;
 
 }
 .text {
     color: rgba(241, 248, 229, 0.747);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2,
-p {
-padding-inline-start: 10px;
-padin
+    padding-inline-start: 8%;
+    padding-inline-end: 10%;
   
-}
+  }
 
 
 /* h2, p {
@@ -139,7 +136,3 @@ padin
   }
    */
 
-  
-  
-  
-  
