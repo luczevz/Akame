@@ -132,6 +132,7 @@ background: linear-gradient(90deg, rgba(236,12,50,1) 0%, rgba(212,43,43,1) 0%, r
 
   .anime {
 
+    display: flex;
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
